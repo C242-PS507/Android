@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My SunSign</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_welcome">Welcome to My SunSign</string>
+    <string name="title_onboarding">Setiap gerakan tangan adalah suara hati yang dapat didengar oleh semua</string>
+    <string name="next">Continue</string>
+</resources>
