@@ -1,9 +1,10 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#608BC1"/>
-    <corners android:radius="24dp"/>
+    <corners android:radius="26dp" /> <!-- Atur radius sudut -->
+    <solid android:color="#608BC1" /> <!-- Warna background tombol -->
     <padding
-        android:left="5dp"
-        android:right="5dp"
-        android:top="12dp"
-        android:bottom="12dp"/>
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp"
+        android:bottom="0dp" />
+    <elevation android:shadowRadius="4dp"/> <!-- Opsional, untuk bayangan -->
 </shape>

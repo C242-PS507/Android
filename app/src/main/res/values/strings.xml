@@ -6,4 +6,9 @@
     <string name="title_welcome">Welcome to My SunSign</string>
     <string name="title_onboarding">Setiap gerakan tangan adalah suara hati yang dapat didengar oleh semua</string>
     <string name="next">Continue</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="forgot"><u>Forgot Password ?</u></string>
 </resources>
+
