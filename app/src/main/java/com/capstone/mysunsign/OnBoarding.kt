@@ -5,8 +5,7 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.capstone.mysunsign.databinding.ActivityOnBoardingBinding
-import com.capstone.mysunsign.view.login.LoginActivity
-import com.capstone.mysunsign.view.signup.SignupActivity
+import com.capstone.mysunsign.auth.SignupActivity
 
 class OnBoarding : AppCompatActivity() {
 
@@ -31,12 +30,7 @@ class OnBoarding : AppCompatActivity() {
         setContentView(binding.root)
 
         // Navigasi ke LoginActivity
-        binding.buttonLogin.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
-        }
-
-        // Navigasi ke RegisterActivity
-        binding.buttonRegister.setOnClickListener {
+        binding.buttonContinue.setOnClickListener {
             startActivity(Intent(this, SignupActivity::class.java))
         }
 
